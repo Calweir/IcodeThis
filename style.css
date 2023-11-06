@@ -1,0 +1,118 @@
+.background {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(forest.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  position: relative;
+  font-family: oswald, sans-serif;
+}
+
+.background::before {
+  content: "";
+  display: block;
+  position: absolute;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(4, 79, 2, 0.3);
+}
+
+h1 {
+  font-size: 60px;
+  margin: 0;
+  opacity: 1;
+  font-family: oswald, sans-serif;
+  position: relative;
+  width: 1350px;
+}
+
+.clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.days {
+  background-color: rgba(9, 8, 8, 0.2);
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  box-shadow: 3px 3px white;
+  width: 100px;
+  height: 98px;
+  margin: 20px;
+}
+
+.days p {
+  font-size: 30px;
+  text-align: center;
+  color: rgb(250, 252, 251, 1.0);
+  position: relative;
+}
+
+.hours {
+  background-color: rgba(9, 8, 8, 0.2);
+  box-shadow: 3px 3px 2px white;
+  width: 100px;
+  height: 98px;
+  margin: 20px;
+}
+
+.hours p {
+  font-size: 30px;
+  color: rgb(250, 252, 251, 1.0);
+  position: relative;
+  text-align: center;
+}
+
+.minutes {
+  background-color: rgba(9, 8, 8, 0.2);
+  box-shadow: 3px 3px 2px white;
+  width: 100px;
+  height: 98px;
+  margin: 20px;
+}
+
+.minutes p {
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+  color: rgb(250, 252, 251, 1.0);
+}
+
+.seconds {
+  background-color: rgba(9, 8, 8, 0.2);
+  box-shadow: 3px 3px 2px white;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 100px;
+  height: 98px;
+  margin: 20px;
+}
+
+.seconds p {
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+  color: rgb(250, 252, 251, 1.0);
+}
+
+h4 {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 100px;
+  width: 750px;
+  margin-left: 450px;
+  position: relative;
+}
+
+.date {
+  position: relative;
+  margin-top: 0;
+  width: 1180px;
+  font-family: oswald, sans-serif;
+}
